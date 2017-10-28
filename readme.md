@@ -6,9 +6,9 @@ This extension works on the websites pages only, specifically any route matching
 
 ```js
 const SELECTORS = [
-'.ListingResults___listingName',
-'.CardSlider___track .grid__col--bleed-y .text--semibold a',
-'.Section___type_a .grid--bleed .grid__col-6:first-child .text--semibold',
+  '.ListingResults___listingName',
+  '.CardSlider___track .grid__col--bleed-y .text--semibold a',
+  '.Section___type_a .grid--bleed .grid__col-6:first-child .text--semibold',
 ];
 ```
 
