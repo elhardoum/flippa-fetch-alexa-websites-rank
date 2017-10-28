@@ -18,8 +18,7 @@
       emit('✓✓');
       setTimeout(function(){ emit(''); }, 2000);
     }
-  }, watchNode = function(obj, callback)
-  {
+  }, watchNode = function(obj, callback){
     var MutationObserver = window.MutationObserver || window.WebKitMutationObserver,
       eventListenerSupported = window.addEventListener;
     if( MutationObserver ){
