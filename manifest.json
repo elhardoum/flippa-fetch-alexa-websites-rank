@@ -1,7 +1,10 @@
 {
   "manifest_version": 2,
   "name": "Flippa Fetch Alexa Websites Rank",
+  "description": "helps quickly fetch Alexa ranks for websites on Flippa, without the need to open the listing and search Alexa yourself",
   "version": "1.0.2",
+  "author": "Samuel Elh",
+  "homepage_url": "https://samelh.com/contact",
   "minimum_chrome_version": "15",
   "icons": {
     "38": "icon-38x38.png",
