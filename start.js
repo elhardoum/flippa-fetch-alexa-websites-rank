@@ -1,3 +1,10 @@
+/**
+  * Flippa Fetch Alexa Websites Rank Chrome Extension - Content JS
+  *
+  * @author Samuel Elh <samelh.com/contact>
+  * @see https://github.com/elhardoum/flippa-fetch-alexa-websites-rank
+  * @license GPL-3.0
+  */
 (function(){
   const SELECTORS = [
     '.ListingResults___listingName',
