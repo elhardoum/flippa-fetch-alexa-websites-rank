@@ -12,6 +12,14 @@ const SELECTORS = [
 ];
 ```
 
+## Installation
+
+Just like any other custom chrome extension:
+
+1. Download and extract this library or clone via command-line
+2. in `chrome://extensions/`, enable developer mode, then click `Load unpacked extensions`
+3. Select the folder `flippa-fetch-alexa-websites-rank` which you just cloned/downloaded.
+
 ## Quick Usage Guide
 
 1. You'll open Flippa on your Chrome browser and head to the websites page.
