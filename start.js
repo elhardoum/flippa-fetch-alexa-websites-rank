@@ -36,6 +36,7 @@
   }, alexa = function(domain, node) {
     if ( alexa_cache && alexa_cache[domain] ) {
       node.innerText += ' (alexa: ' + alexa_cache[domain] + ')';
+      node.title = (node.title + ' (alexa: ' + alexa_cache[domain] + ')').trim();
       counter--; updateCounter();
     } else {
       var req = new XMLHttpRequest();
@@ -45,6 +46,7 @@
           n = r.exec(this.response);
           alexa_cache[domain] = null != n ? n[1].replace(/\B(?=(\d{3})+(?!\d))/g, ' ') : -1;
           node.innerText += ' (alexa: ' + alexa_cache[domain] + ')';
+          node.title = (node.title + ' (alexa: ' + alexa_cache[domain] + ')').trim();
           counter--; updateCounter();
       });
       req.open('GET', 'https://cors-anywhere.herokuapp.com/http://data.alexa.com/data?cli=10&dat=s&url='+domain);
